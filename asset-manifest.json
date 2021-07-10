@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nathanhains.github.io/static/css/main.7b6e7eaf.chunk.css",
-    "main.js": "/nathanhains.github.io/static/js/main.cc7ec626.chunk.js",
-    "main.js.map": "/nathanhains.github.io/static/js/main.cc7ec626.chunk.js.map",
-    "runtime-main.js": "/nathanhains.github.io/static/js/runtime-main.fdea41e7.js",
-    "runtime-main.js.map": "/nathanhains.github.io/static/js/runtime-main.fdea41e7.js.map",
-    "static/css/2.ec02d681.chunk.css": "/nathanhains.github.io/static/css/2.ec02d681.chunk.css",
-    "static/js/2.21230721.chunk.js": "/nathanhains.github.io/static/js/2.21230721.chunk.js",
-    "static/js/2.21230721.chunk.js.map": "/nathanhains.github.io/static/js/2.21230721.chunk.js.map",
-    "index.html": "/nathanhains.github.io/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/nathanhains.github.io/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.7b6e7eaf.chunk.css.map": "/nathanhains.github.io/static/css/main.7b6e7eaf.chunk.css.map",
-    "static/js/2.21230721.chunk.js.LICENSE.txt": "/nathanhains.github.io/static/js/2.21230721.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.7b6e7eaf.chunk.css",
+    "main.js": "/static/js/main.cc7ec626.chunk.js",
+    "main.js.map": "/static/js/main.cc7ec626.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c700ea06.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c700ea06.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.21230721.chunk.js": "/static/js/2.21230721.chunk.js",
+    "static/js/2.21230721.chunk.js.map": "/static/js/2.21230721.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.7b6e7eaf.chunk.css.map": "/static/css/main.7b6e7eaf.chunk.css.map",
+    "static/js/2.21230721.chunk.js.LICENSE.txt": "/static/js/2.21230721.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdea41e7.js",
+    "static/js/runtime-main.c700ea06.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.21230721.chunk.js",
     "static/css/main.7b6e7eaf.chunk.css",
