@@ -1,6 +1,6 @@
 html,
 body {
-  height: 400vh;
+  height: 350vh;
     padding: 0;
     margin: 0;
     display: flex;
@@ -9,14 +9,16 @@ body {
     background-color: black;
 }
 
-.area {
+body::-webkit-scrollbar {
+  display: none;
+}
 
+.area {
     width: 200px;
     height: 500px;
     transform-origin: top;
     -moz-transform-origin: top;
     -webkit-transform-origin: top;
-    
 }
 
 .area-on {
@@ -211,7 +213,7 @@ to {
 
 .area-bottom {
   position: absolute;
-  bottom: -400%;
+  bottom: -300%;
   transform-origin: top;
   -moz-transform-origin: top;
   -webkit-transform-origin: top;
@@ -287,7 +289,9 @@ to {
 }
 
 .turn-on-the-light {
-  right: 14px;
+  font-family:'Courier New', Courier, monospace;
+  right: 55px;
+  font-size: 30px;
   position: relative;
   z-index: 10;
   text-shadow: 0 -15px 5px black;
@@ -298,40 +302,25 @@ to {
 }
 
 .nav-link {
+  z-index: 100;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 19px;
+  font-weight: 600;
   transition: 600ms;
   color: gray;
   display: flex;
   position: relative;
   margin-top:-5px;
-  padding:15px;
+  padding:20px;
+  cursor: pointer;
 }
 
 .nav-link:hover {
   color: rgba(235, 209, 164, 1);
-  -webkit-text-shadow:  0 0 50px rgba(235, 209, 164, 1);
-  -moz-text-shadow:  0 0 50px rgba(235, 209, 164, 1);
-  text-shadow: 0 0 50px rgba(235, 209, 164, 1);
 }
-
-.box {
-  transition: 600ms;
-  cursor:pointer;
-  width: 200px;
-  height: 150px;
-  background-color: black;
-  position: absolute;
-  top: 600px;
-  left: -140px;
-  z-index: 5;
-}
-
-.box:hover {
-  left: 50px;
-  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
-}
-
 
 .Fix {
+  font-family:'Courier New', Courier, monospace;
   color: black;
   position: absolute;
   top: 120px;
@@ -340,6 +329,7 @@ to {
 }
 
 .The {
+  font-family:'Courier New', Courier, monospace;
   color: black;
   position: absolute;
   top: 120px;
@@ -348,10 +338,11 @@ to {
 }
 
 .Light {
+  font-family:'Courier New', Courier, monospace;
   color: black;
   position: absolute;
   top: 300px;
-  left: 215px;
+  left: 205px;
   text-shadow: 0px 15px 5px black;
 }
 
@@ -361,10 +352,442 @@ to {
   display: flex;
   flex-direction: row;
   top:0;
-  right: -2px;;
+  right: -9px;
   width: 100%;
   height:40px;
 }
+
+.my-worth {
+  width: 100%;
+  position: absolute;
+  top: 400px;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-worth .left-box {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  left: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-worth .left-box:hover {
+  left: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.who-i-am {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  left: 80px;
+  z-index: 5;
+  top: 25%;
+  align-content: center;
+}
+.who-i-am svg{
+  position: relative;
+  top: 10px;
+  left: 28px;
+  font-size: 5px;
+  width: 30%;
+}
+.who-i-am h4{
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-worth .right-box {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  bottom: 20%;
+  right: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-worth .right-box:hover {
+  right: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.what-i-do {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  right: 80px;
+  z-index: 5;
+  bottom: 20%;
+  align-content: center;
+}
+.what-i-do svg{
+  position: relative;
+  top: 10px;
+  left: 64px;
+  font-size: 5px;
+  width: 30%;
+}
+.what-i-do h4{
+  position: relative;
+  top: -20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-work {
+  width: 100%;
+  position: absolute;
+  top: 1130px;
+  height: 90%;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-work .left-box-1 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  left: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-trainer-1 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  left: 75px;
+  z-index: 5;
+  top: 15%;
+  align-content: center;
+}
+.my-trainer-1 svg{
+  position: relative;
+  top: 10px;
+  left: 28px;
+  font-size: 5px;
+  width: 30%;
+}
+.my-trainer-1 h4{
+  text-align:center;
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-work .left-box-1:hover {
+  left: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.my-work .left-box-2 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 35%;
+  left: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-work .left-box-2:hover {
+  left: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.allegiance-1 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  left: 75px;
+  z-index: 5;
+  top: 40%;
+  align-content: center;
+}
+.allegiance-1 svg{
+  position: relative;
+  top: 10px;
+  left: 28px;
+  font-size: 5px;
+  width: 30%;
+}
+.allegiance-1 h4{
+  text-align:center;
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-work .left-box-3 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-work .left-box-3:hover {
+  left: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.iremind-1 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  left: 80px;
+  z-index: 5;
+  bottom: 20%;
+  align-content: center;
+}
+.iremind-1 svg{
+  position: relative;
+  top: 10px;
+  left: 28px;
+  font-size: 5px;
+  width: 30%;
+}
+.iremind-1 h4{
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-work .right-box-1 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  right: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-work .right-box-1:hover {
+  right: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.my-trainer-2 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  right: 80px;
+  z-index: 5;
+  top: 15%;
+  align-content: center;
+}
+.my-trainer-2 svg{
+  position: relative;
+  top: 10px;
+  left: 64px;
+  font-size: 5px;
+  width: 30%;
+}
+.my-trainer-2 h4{
+  text-align: center;
+  position: relative;
+  top: -20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.my-work .right-box-2 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 35%;
+  right: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-work .right-box-2:hover {
+  right: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.allegiance-2 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  right: 80px;
+  z-index: 5;
+  top: 40%;
+  align-content: center;
+}
+.allegiance-2 svg{
+  position: relative;
+  top: 10px;
+  left: 64px;
+  font-size: 5px;
+  width: 30%;
+}
+.allegiance-2 h4{
+  position: relative;
+  top: -20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.my-work .right-box-3 {
+  display: flex;
+  transition: 600ms;
+  cursor:pointer;
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  right: -140px;
+  z-index: 6;
+  border-radius: 5%;
+}
+
+.my-work .right-box-3:hover {
+  right: 50px;
+  box-shadow:  0  0 25px 5px rgba(235, 209, 164, 1);
+}
+
+.iremind-2 {
+  width: 120px;
+  margin:0;
+  position: absolute;
+  right: 80px;
+  z-index: 5;
+  bottom: 20%;
+  align-content: center;
+}
+.iremind-2 svg{
+  position: relative;
+  top: 10px;
+  left: 64px;
+  font-size: 5px;
+  width: 30%;
+}
+.iremind-2 h4{
+  position: relative;
+  top: -20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 100%;
+}
+
+.medias {
+  width: 100%;
+  position: absolute;
+  top: 1788px;
+  height: 90%;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.medias-bar {
+  z-index: 5;
+  width: 50%;
+  height: 10%;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.medias-bar svg{
+  padding: 18px;
+  cursor: pointer;
+}
+
+.medias-bar svg {
+  transition: 600ms;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.medias-bar svg:hover {
+  padding: 14px;
+  filter: drop-shadow(0px 0px 5px rgba(235, 209, 164, 1));
+}
+
+.fa-github-square{
+  filter: drop-shadow(-5px 7px 3px rgba(0, 0, 0, 0.4));
+}
+
+.fa-twitter-square{
+  filter: drop-shadow(5px 7px 3px rgba(0, 0, 0, 0.4));
+}
+
+.fa-linkedin{
+  filter: drop-shadow(0px 7px 3px rgba(0, 0, 0, 0.4));
+}
+
+.fa-dev{
+  filter: drop-shadow(0px 7px 3px rgba(0, 0, 0, 0.4));
+}
+
+
+
+
 
 
 
