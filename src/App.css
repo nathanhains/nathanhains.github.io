@@ -888,9 +888,64 @@ to {
 
 
 @media only screen and (max-width: 490px) {
-  .area-on {
-    display: none;
+
+  .nav-link {
+    padding:15px;
   }
+  body {
+    height: 340vh;
+  }
+
+  .Fix {
+    left: 100px;
+  }
+
+  .The {
+    left: 260px;
+  }
+
+  .Light {
+    left: 155px;
+  }
+
+  .medias-bar {
+    top: 50%;
+  }
+
+  .who-i-am {
+    left: 60px;
+  }
+
+  .what-i-do {
+    right: 60px;
+  }
+
+  .my-trainer-1 {
+    left: 60px;
+  }
+
+  .allegiance-1 {
+    left: 60px;
+  }
+
+  .iremind-1 {
+    left: 60px;
+  }
+
+  .my-trainer-2 {
+    right: 60px;
+  }
+
+  .allegiance-2 {
+    right: 60px;
+  }
+
+  .iremind-2 {
+    right: 60px;
+  }
+
+
+
 }
 
 
