@@ -608,7 +608,7 @@ to {
   position: absolute;
   left: 80px;
   z-index: 5;
-  bottom: 20%;
+  bottom: 15%;
   align-content: center;
 }
 .iremind-1 svg{
@@ -740,7 +740,7 @@ to {
   position: absolute;
   right: 80px;
   z-index: 5;
-  bottom: 20%;
+  bottom: 15%;
   align-content: center;
 }
 .iremind-2 svg{
@@ -890,26 +890,26 @@ to {
 @media only screen and (max-width: 490px) {
 
   .nav-link {
-    padding:15px;
+    padding:10px;
   }
   body {
     height: 340vh;
   }
 
   .Fix {
-    left: 100px;
+    left: 105px;
   }
 
   .The {
-    left: 260px;
+    left: 265px;
   }
 
   .Light {
-    left: 155px;
+    left: 160px;
   }
 
   .medias-bar {
-    top: 50%;
+    top: 90%;
   }
 
   .who-i-am {
@@ -944,7 +944,9 @@ to {
     right: 60px;
   }
 
-
+  .area-bottom {
+    bottom: -315%;
+  }
 
 }
 
