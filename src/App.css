@@ -23,20 +23,47 @@ body::-webkit-scrollbar {
 
 .area-on {
   z-index: 5;
-  left: 150px;
-  top: 0px;
+  transform: translate(-50%, -50%);
+  left: 50%; /* Negative half of height. */
+  margin-left: -100px;
   position: fixed;
   animation: swing 1.5s infinite ease-in-out alternate;
 }
 
+.area-on-2 {
+  display: none;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  left: 80%; /* Negative half of height. */
+  margin-left: -100px;
+  position: fixed;
+  animation: swing 1.5s infinite ease-in-out alternate;
+}
 
-
+.area-on-3 {
+  display:none;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  left: 20%; /* Negative half of height. */
+  margin-left: -100px;
+  position: fixed;
+  animation: swing 1.5s infinite ease-in-out alternate;
+}
 
 .wire {
   z-index: 8;
     position: relative;
     left: 98px;
     height: 200px;
+    width: 4px;
+    background-color: black;
+}
+
+.wire-2 {
+  z-index: 8;
+    position: relative;
+    left: 98px;
+    height: 250px;
     width: 4px;
     background-color: black;
 }
@@ -746,8 +773,9 @@ to {
   z-index: 5;
   width: 50%;
   height: 10%;
-  top: 50%;
-  left: 25%;
+  top: 70%;
+  left: 50%;
+  margin-left: -118px;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -842,6 +870,23 @@ to {
   width: 80%;
   border-radius: 5%;
 }
+
+@media only screen and (min-width: 600px) {
+  .area-on-2 {
+    display: unset;
+  }
+
+  .area-on-3 {
+    display: unset;
+  }
+
+  .medias-bar{
+    top: 76%;
+  }
+
+}
+
+
 
 
 
