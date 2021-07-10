@@ -796,6 +796,7 @@ to {
 .who-i-am-text {
   position: relative;
   font-size: 8px;
+  font-family:'Courier New', Courier, monospace;
   color:  rgba(235, 209, 164, 1);
   margin: 0;
   width: 100%;
@@ -825,6 +826,7 @@ to {
 .what-i-do-text {
   position: absolute;
   font-size: 8px;
+  font-family:'Courier New', Courier, monospace;
   color:  rgba(235, 209, 164, 1);
   width: 80%;
   height: 60%;
