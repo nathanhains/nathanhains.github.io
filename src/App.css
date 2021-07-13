@@ -373,6 +373,26 @@ to {
   text-shadow: 0px 15px 5px black;
 }
 
+.Learn {
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 10;
+  text-shadow: -5px -15px 5px black;
+}
+
+.Below {
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  z-index: 10;
+  text-shadow: 5px -15px 5px black;
+}
+
 .nav-main {
   z-index: 100;
   position: fixed;
@@ -900,7 +920,15 @@ to {
     margin-left: -50px;
   }
 
-
+  .Learn {
+    left: 50%; /* Negative half of height. */
+    margin-left: -130px;
+  }
+  
+  .Below {
+    left: 50%; /* Negative half of height. */
+    margin-left: 40px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -923,7 +951,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    left: 110px;
+    left: 120px;
     z-index: 5;
     top: 25%;
     align-content: center;
@@ -947,7 +975,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    right: 110px;
+    right: 120px;
     z-index: 5;
     bottom: 20%;
     align-content: center;
@@ -971,7 +999,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    left: 110px;
+    left: 120px;
     z-index: 5;
     top: 15%;
     align-content: center;
@@ -995,7 +1023,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    left: 110px;
+    left: 120px;
     z-index: 5;
     top: 40%;
     align-content: center;
@@ -1019,7 +1047,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    left: 110px;
+    left: 120px;
     z-index: 5;
     bottom: 15%;
     align-content: center;
@@ -1043,7 +1071,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    right: 110px;
+    right: 120px;
     z-index: 5;
     top: 15%;
     align-content: center;
@@ -1067,7 +1095,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    right: 110px;
+    right: 120px;
     z-index: 5;
     top: 40%;
     align-content: center;
@@ -1091,7 +1119,7 @@ to {
     width: 120px;
     margin:0;
     position: absolute;
-    right: 110px;
+    right: 120px;
     z-index: 5;
     bottom: 15%;
     align-content: center;

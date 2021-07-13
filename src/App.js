@@ -28,6 +28,13 @@ const App = () => {
       <header id="welcome" className="App-header">
         <Lightbulb clicked={clicked} handleClick={handleClick}/>
       </header>
+      {
+      clicked === "no" ? null : 
+      <>
+      <h1 className="Learn">Learn</h1>
+      <h1 className="Below" >Below</h1>
+      </>
+      }
       <h1  className="Fix">Fix</h1>
       <h1 className="The">The</h1>
       <h1 className="Light">Light</h1>   
