@@ -884,6 +884,218 @@ to {
     top: 76%;
   }
 
+  .Fix {
+    left: 50%; /* Negative half of height. */
+    margin-left: -120px;
+    
+  }
+  
+  .The {
+    left: 50%; /* Negative half of height. */
+    margin-left: 70px;
+  }
+  
+  .Light {
+    left: 50%; /* Negative half of height. */
+    margin-left: -50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .my-worth .left-box {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .who-i-am {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    left: 110px;
+    z-index: 5;
+    top: 25%;
+    align-content: center;
+  }
+  
+  .my-worth .right-box {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    bottom: 20%;
+    right: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .what-i-do {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    right: 110px;
+    z-index: 5;
+    bottom: 20%;
+    align-content: center;
+  }
+  
+  .my-work .left-box-1 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .my-trainer-1 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    left: 110px;
+    z-index: 5;
+    top: 15%;
+    align-content: center;
+  }
+  
+  .my-work .left-box-2 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    left: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .allegiance-1 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    left: 110px;
+    z-index: 5;
+    top: 40%;
+    align-content: center;
+  }
+  
+  .my-work .left-box-3 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .iremind-1 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    left: 110px;
+    z-index: 5;
+    bottom: 15%;
+    align-content: center;
+  }
+  
+  .my-work .right-box-1 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    right: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .my-trainer-2 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    right: 110px;
+    z-index: 5;
+    top: 15%;
+    align-content: center;
+  }
+  
+  .my-work .right-box-2 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    right: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+
+  .allegiance-2 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    right: 110px;
+    z-index: 5;
+    top: 40%;
+    align-content: center;
+  }
+  
+  .my-work .right-box-3 {
+    display: flex;
+    transition: 600ms;
+    cursor:pointer;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    right: -130px;
+    z-index: 6;
+    border-radius: 5%;
+  }
+  
+  .iremind-2 {
+    width: 120px;
+    margin:0;
+    position: absolute;
+    right: 110px;
+    z-index: 5;
+    bottom: 15%;
+    align-content: center;
+  }
 }
 
 
@@ -891,9 +1103,6 @@ to {
 
   .nav-link {
     padding:10px;
-  }
-  body {
-    height: 340vh;
   }
 
   .Fix {
@@ -909,7 +1118,7 @@ to {
   }
 
   .medias-bar {
-    top: 90%;
+    top: 85%;
   }
 
   .who-i-am {
