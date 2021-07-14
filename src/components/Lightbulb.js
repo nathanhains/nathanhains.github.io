@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Spider from './Spider'
-const Lightbulb = ({clicked, handleClick}) => {
+const Lightbulb = ({clicked, handleClick, spiderClicked, setSpiderClicked}) => {
 
     return (
         <>
@@ -51,8 +51,8 @@ const Lightbulb = ({clicked, handleClick}) => {
                     <div class="zig"></div>
                     <div class="zig"></div>
                 </div>
-                <div onClick = {handleClick} class={clicked === "no" ? "bulb-off-second" : "bulb-off-second bulb-on-second"}><div className="spider-box">
-                    <Spider clicked={clicked}/>
+                <div  class={clicked === "no" ? "bulb-off-second" : "bulb-off-second bulb-on-second"}><div className="spider-box">
+                    <Spider clicked={clicked} spiderClicked={spiderClicked} setSpiderClicked={setSpiderClicked}/>
                 </div></div>
             </motion.div>
         </>

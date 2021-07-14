@@ -248,7 +248,6 @@ to {
 
 .bulb-bottom {
     transition: 600ms;
-    cursor: pointer;
     position: relative;
     width: 40px;
     height: 40px;
@@ -351,7 +350,8 @@ to {
   color: black;
   position: absolute;
   top: 120px;
-  left: 150px;
+  left: 50%; /* Negative half of height. */
+  margin-left: -120px;
   text-shadow: -5px -15px 5px black;
 }
 
@@ -360,7 +360,8 @@ to {
   color: black;
   position: absolute;
   top: 120px;
-  left: 310px;
+  left: 50%; /* Negative half of height. */
+  margin-left: 70px;
   text-shadow: 5px -15px 5px black;
 }
 
@@ -369,7 +370,8 @@ to {
   color: black;
   position: absolute;
   top: 300px;
-  left: 205px;
+  left: 50%; /* Negative half of height. */
+  margin-left: -50px;
   text-shadow: 0px 15px 5px black;
 }
 
@@ -378,7 +380,8 @@ to {
   color: black;
   position: absolute;
   top: 120px;
-  left: 120px;
+  left: 50%; /* Negative half of height. */
+  margin-left: -130px;
   z-index: 10;
   text-shadow: -5px -15px 5px black;
 }
@@ -388,7 +391,8 @@ to {
   color: black;
   position: absolute;
   top: 120px;
-  right: 120px;
+  left: 50%; /* Negative half of height. */
+  margin-left: 40px;
   z-index: 10;
   text-shadow: 5px -15px 5px black;
 }
@@ -904,22 +908,6 @@ to {
     top: 76%;
   }
 
-  .Fix {
-    left: 50%; /* Negative half of height. */
-    margin-left: -120px;
-    
-  }
-  
-  .The {
-    left: 50%; /* Negative half of height. */
-    margin-left: 70px;
-  }
-  
-  .Light {
-    left: 50%; /* Negative half of height. */
-    margin-left: -50px;
-  }
-
   .Learn {
     left: 50%; /* Negative half of height. */
     margin-left: -130px;
@@ -1130,19 +1118,7 @@ to {
 @media only screen and (max-width: 490px) {
 
   .nav-link {
-    padding:10px;
-  }
-
-  .Fix {
-    left: 105px;
-  }
-
-  .The {
-    left: 265px;
-  }
-
-  .Light {
-    left: 160px;
+    padding:1.2vh;
   }
 
   .medias-bar {
@@ -1150,35 +1126,67 @@ to {
   }
 
   .who-i-am {
-    left: 60px;
+    left: 50px;
+  }
+
+  .my-worth .left-box {
+    left: -160px;
   }
 
   .what-i-do {
-    right: 60px;
+    right: 50px;
+  }
+
+  .my-worth .right-box {
+    right: -160px;
   }
 
   .my-trainer-1 {
-    left: 60px;
+    left: 50px;
+  }
+
+  .my-work .left-box-1 {
+    left: -160px;
   }
 
   .allegiance-1 {
-    left: 60px;
+    left: 50px;
+  }
+
+  .my-work .left-box-2 {
+    left: -160px;
   }
 
   .iremind-1 {
-    left: 60px;
+    left: 50px;
+  }
+
+  .my-work .left-box-3 {
+    left: -160px;
   }
 
   .my-trainer-2 {
-    right: 60px;
+    right: 50px;
+  }
+
+  .my-work .right-box-1 {
+    right: -160px;
   }
 
   .allegiance-2 {
-    right: 60px;
+    right: 50px;
+  }
+
+  .my-work .right-box-2 {
+    right: -160px;
   }
 
   .iremind-2 {
-    right: 60px;
+    right: 50px;
+  }
+
+  .my-work .right-box-3 {
+    right: -160px;
   }
 
   .area-bottom {

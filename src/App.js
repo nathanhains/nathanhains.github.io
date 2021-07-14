@@ -15,9 +15,11 @@ const App = () => {
   }, [])
 
   const [clicked, setClicked] = useState("no")
+  const [spiderClicked, setSpiderClicked] = useState("no")
 
   const handleClick = () => {
-    clicked === "no" ? setClicked("yes") : setClicked("no")
+    clicked === "no" ? setClicked("yes") : setClicked("no") 
+    clicked === "no" ? setSpiderClicked("no") : setSpiderClicked("no") 
   }
   
   return (
@@ -26,7 +28,7 @@ const App = () => {
     <NavBar clicked={clicked} motion={motion}/>
     <div className="App">
       <header id="welcome" className="App-header">
-        <Lightbulb clicked={clicked} handleClick={handleClick}/>
+        <Lightbulb clicked={clicked} handleClick={handleClick} spiderClicked={spiderClicked} setSpiderClicked={setSpiderClicked}/>
       </header>
       {
       clicked === "no" ? null : 
@@ -35,6 +37,7 @@ const App = () => {
       <h1 className="Below" >Below</h1>
       </>
       }
+      
       <h1  className="Fix">Fix</h1>
       <h1 className="The">The</h1>
       <h1 className="Light">Light</h1>   
